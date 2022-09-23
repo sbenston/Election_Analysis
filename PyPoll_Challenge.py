@@ -18,7 +18,7 @@ total_votes = 0
 candidate_options = []
 candidate_votes = {}
 
-# 1: Create a county list and county votes dictionary.
+# Create a county list and county votes dictionary.
 county_list = []
 county_votes = {}
 
@@ -27,7 +27,7 @@ winning_candidate = ""
 winning_count = 0
 winning_percentage = 0
 
-# 2: Track the largest county and county voter turnout.
+# Track the largest county and county voter turnout.
 largest_county = ""
 largest_turnout = 0
 
@@ -47,7 +47,7 @@ with open(file_to_load) as election_data:
         # Get the candidate name from each row.
         candidate_name = row[2]
 
-        # 3: Extract the county name from each row.
+        # Extract the county name from each row.
         county_name = row[1]
 
         # If the candidate does not match any existing candidate add it to
@@ -63,17 +63,17 @@ with open(file_to_load) as election_data:
         # Add a vote to that candidate's count
         candidate_votes[candidate_name] += 1
 
-        # 4a: Write an if statement that checks that the
+        # Write an if statement that checks that the
         # county does not match any existing county in the county list.
         if county_name not in county_list:
 
-            # 4b: Add the existing county to the list of counties.
+            # Add the existing county to the list of counties.
             county_list.append(county_name)
 
-            # 4c: Begin tracking the county's vote count.
+            # Begin tracking the county's vote count.
             county_votes[county_name] = 0
 
-        # 5: Add a vote to that county's vote count.
+        # Add a vote to that county's vote count.
         county_votes[county_name] += 1
 
 
