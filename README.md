@@ -45,12 +45,15 @@ Again a similar process is used to write a similar statement for the candidates.
 ### Results
 
 The results from the election analysis are as follows:
+
 * A total of 369,711 votes were cast.
+
 * Across the 3 counties:
     * Jefferson county had 38,855 votes with 10.5% of the total votes cast.
     * Denver county had 306,055 votes with 82.8% of the total votes cast.
     * Arapahoe county had 24,801 votes with 6.7% of the total votes cast.
 * The county with the highest turnout is Denver County.
+
 * For each candidate:
     * Charles Casper Stockham received 23.0% of the vote with 85,213 votes.
     * Diana DeGette received 73.8% of the vote with 272,892 votes.
